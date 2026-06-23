@@ -14,3 +14,8 @@ jobs:
         run: |
           echo "Voce laala"
           echo "teste"
+      - name: "script python do Abner"
+        run: |
+          variavel = "NO WAY, DUDE!!!"
+          print(variavel)
+        shell: python
