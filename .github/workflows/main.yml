@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello World"
       - name: "Segunda ação"
         run: |
-          echo "Voce laala"
+          ech "Voce laala"
           echo "teste"
       - name: "script python do Abner"
         run: |
