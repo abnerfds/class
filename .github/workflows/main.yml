@@ -25,3 +25,11 @@ jobs:
       steps:
         - name: "versão node.js" 
           run: node -v
+        - name: "DEFININDO NOVA VERSÃO DO NODE"
+        - uses: actions/setup-node@v6
+          with: # Aqui entram os parâmetros
+            node-version: '20.13.1'
+        - name: "Nova versão node.js" 
+          run: node -v
+          
+        
